@@ -1,0 +1,6 @@
+add_lunch_combo omni_PLE-eng
+add_lunch_combo omni_PLE-userdebug
+add_lunch_combo omni_PLE-user
+add_lunch_combo full_PLE-eng
+add_lunch_combo full_PLE-userdebug
+add_lunch_combo full_PLE-user

@@ -4,5 +4,11 @@
     "repository": "TeamWin/android_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision":"android-8.0"
+ 
+    "remote":"gitlab",
+    "repository": "OrangeFox/misc/theme.git",
+    "target_path": "bootable/recovery/gui/theme",
+    "revision":"master"
+
   }
 ]

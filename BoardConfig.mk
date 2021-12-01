@@ -75,6 +75,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 TW_INCLUDE_NTFS_3G := true
+ALLOW_MISSING_DEPENDENCIES :=true
 
 # Hack:prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
@@ -99,3 +100,21 @@ TARGET_PROVIDES_KEYMASTER := true
 
 # Qcom Hardware
 BOARD_USES_QCOM_HARDWARE := true
+
+#shrp flags
+SHRP_PATH := device/nokia/PLE
+SHRP_MAINTAINER := Atharv2951
+SHRP_DEVICE_CODE := PLE
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_FLASH_MAX_BRIGHTNESS := 200
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_OFFICIAL := true
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_NO_SAR_AUTOMOUNT := true
+SHRP_REC_TYPE := Universal
+SHRP_DEVICE_TYPE := A_Only

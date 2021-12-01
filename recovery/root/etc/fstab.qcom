@@ -8,7 +8,7 @@
 /firmware       ext4      /dev/block/bootdevice/by-name/modem      flags=fsflags=ro,nosuid,nodev,barrier=0,context=u:object_r:fsg_file:s0;mounttodecrypt
 /boot           emmc      /dev/block/bootdevice/by-name/boot
 /misc           emmc      /dev/block/bootdevice/by-name/misc
-/vendor            ext4     vendor                               flags=display="Vendor";backup=1;logical;slotselect
+/vendor         ext4      /dev/block/bootdevice/by-name/vendor                               flags=display="Vendor";backup=1;logical;slotselect
 
 /external_sd    auto      /dev/block/mmcblk1p1                     /dev/block/mmcblk1     flags=display="MicroSD Card";storage;wipeingui;removable
 /usb_otg        auto      /dev/block/sda1                          /dev/block/sda         flags=display="USB-OTG";storage;wipeingui;removable
